@@ -1,0 +1,54 @@
+.janelaModal{
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	z-index: 1;
+}
+
+#aj{
+	padding: 4px 0 0 4px;
+}
+
+.modalTitulo{
+	width: 400px;
+	height: 22px;
+}
+
+.fecharModal{
+	width: 22px;
+	height: 22px;
+	float: right;
+	cursor: pointer;
+}
+
+.conteudoModal{
+	width: 400px;
+	height: 170px;
+	border: 1px solid #555;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.conteudoModal p{
+	font-family: Arial;
+	font-size: 13px;
+	padding: 10px;
+	text-align: justify;
+}
+
+.fundoModal{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 1.3;
+	background: #EAEAEA;
+	left: 0;
+	top: 0;
+}
+.botao{
+	cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+ 
+.customFileInput input {
+    position: absolute;
+    visibility: hidden;
+}
+ 
+.customFileInput .button,
+.customFileInput .fileName {
+    float: left;
+    cursor: pointer;
+    font-size: 0.9em;
+    line-height: 30px;
+    padding: 0 15px;
+}
+ 
+.customFileInput .button {
+    background-color: #CDCDCD;
+}
+ 
+.customFileInput .fileName {
+    color: #0000FF;
+}
+ 
+.customFileInput:hover .button {
+    background-color: #D6D6D6;
+}
+ 
+.customFileInput:hover .fileName {
+    text-decoration: underline;
+}

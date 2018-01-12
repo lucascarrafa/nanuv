@@ -1,0 +1,53 @@
+*{margin:0; padding:0;}
+
+
+
+div#global{
+	width:580px;
+	background: #EEF0FB;
+	padding:10px;
+	margin:20px auto;
+}
+
+div#global div.porcentagem{
+	float:left;
+	width:579px;
+	
+}
+div#global div.porcentagem span.valor{
+	float:left;
+	display:block;
+	border:1px solid #FFBE23;
+	border-radius: 5px;
+	background:#FFE3A0;
+}
+div#global div.porcentagem span.valor p{
+	font:15px Century Gothic;
+	color:#fff;
+	margin:5px;
+}
+
+div.mensagens{
+	float:left;
+	width:570px;
+	padding:5px;
+	
+	border-radius: 5px;
+	background:#8FB8FA;
+	font:16px Century Gothic;
+	color:#fff;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+div#formulario{
+	float:left;
+	width:560px;
+	padding:10px;
+	background: #EEF0FB;
+}
+
+
+div#formulario label input{
+	margin-top:5px;
+}

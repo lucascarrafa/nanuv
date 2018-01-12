@@ -1,0 +1,150 @@
+body{
+background-repeat: no-repeat;
+-moz-background-size: 100%;
+-webkit-background-size: 100%;
+background-size: 100%;
+}
+
+.todoform{
+	background-color:  #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	padding: 20px 30px 20px 30px;
+	/*width: 178px;
+	height: 200px;*/
+}
+
+.position{
+	position: absolute; 
+	left: 546px;
+	top: 150px; 
+}
+
+.rodape{
+    font-family: Century Gothic;
+	bottom: 0;
+	position: absolute; 
+	left: 464px;
+	top: 610px; 
+}
+
+a{
+	text-decoration: none;
+	padding: 0 0 0 15px;
+}
+
+
+form{
+font-family: Century Gothic;
+}
+
+label{
+	display: none;
+}
+
+input{
+	display: block;
+}
+
+button{
+	margin-top: 5px;
+	background-color: #E5E5E5;
+	background-image: linear -gradient(to bottom, #FFF, #E5E5E5);
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	color: #000;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+button:hover{
+	background-color: #285582;
+	background-image: linear -gradient(to bottom, #3775B3, #285582);
+	border-color: #204569;
+}
+
+input{
+	border-radius: 3px 3px 0 0 ;
+	border: 1px solid #999 ;
+	box-shadow: 1px 1px 5px rgba(0, 0 , 0, 0.2);
+	font-size: 0.8em ;
+	padding: 10px;
+}
+
+input[type='password']{
+	border-radius: 0 0 0 0;
+	border-top: none;
+}
+
+#login{
+	border-radius: 0 0 0 0;
+	border-top: none;
+}
+
+#celular{
+	border-radius: 0 0 3px 3px;
+	border-top: none;
+}
+
+#botao{
+	padding: 10px 0 0 0;
+}
+
+::-webkit-input-placeholder{
+	color: #6E6E6E;
+}
+
+::-moz-placeholder{
+	color: #6E6E6E;
+}
+
+::-ms-intup-placeholder{
+	color: #6E6E6E;
+}
+
+input{
+	font-weight: bold;
+}
+
+::-webkit-input-placeholder{
+	color: #666;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Century Gothic;
+}
+
+::-moz-placeholder{
+	color: #666;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Century Gothic;
+}
+
+::-ms-intup-placeholder{
+	color: #666;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Century Gothic;
+}
+
+ul.links li{
+	display: inline-block;
+}
+
+ul.links li a{
+	color: black;
+}
+
+ul.links li:before{
+	display: inline;
+	content: '\2022';
+	opacity: 0.5;
+}
+		
+ul.links li:first-child:before{
+	display: none;
+}
+
+		
+		
